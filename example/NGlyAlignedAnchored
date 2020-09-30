@@ -1,0 +1,142 @@
+ 
+                           DIALIGN 2.2.1 
+                           *************
+ 
+          Program code written by Burkhard Morgenstern and Said Abdeddaim 
+             e-mail contact: dialign (at) gobics (dot) de 
+ 
+          Published research assisted by DIALIGN 2 should cite:  
+ 
+             Burkhard Morgenstern (1999).
+             DIALIGN 2: improvement of the segment-to-segment
+             approach to multiple sequence alignment.
+             Bioinformatics 15, 211 - 218. 
+
+          For more information, please visit the DIALIGN home page at 
+
+             http://bibiserv.techfak.uni-bielefeld.de/dialign/ 
+ 
+         ************************************************************
+ 
+
+
+   program call:  .\dialign.exe -fa -anc -fn NGlyAlignedAnchored ./set28_Kerkof.fasta  
+
+ 
+   Aligned sequences:          length:
+   ==================          =======
+ 
+   1) HXB2_1_856                  29
+   2) H19489_8_G5_                34
+   3) H19308_26_F8                29
+   4) H19861_19_A6                27
+   5) H19829_11_B4                25
+   6) H18969_12_7D                23
+   7) H19829_11_E8                25
+   8) H19308_26_E4                31
+   9) H19489_8_2A3                27
+  10) H19308_26_D8                27
+  11) H19885_31_E1                33
+  12) H18887_21_G2                35
+  13) H18969_12_9D                23
+  14) H19885_31_A5                33
+  15) H18969_12_8G                24
+  16) H19885_31_G1                33
+  17) H19463_8_A11                27
+  18) H11668_12_F1                33
+  19) H19792_9_F6_                36
+  20) H19463_8_E10                27
+  21) H19885_31_H1                33
+  22) H18814_10_1G                28
+  23) H18814_10_1B                28
+  24) H19885_31_E2                33
+  25) H19329_32_H9                33
+  26) H11668_12_C3                33
+  27) H19961_14_B1                30
+  28) H19507_18_C1                32
+  29) H19885_31_D9                33
+
+   Average seq. length:           29.8 
+
+
+   Please note that only upper-case letters are considered to be aligned. 
+
+
+   Alignment (DIALIGN format):
+   ===========================
+ 
+HXB2_1_856         1   KCTD-L--KN DTNT----NS S----SGR-- ---------M -IMEKGEIKN 
+H19489_8_G5_       1   DCTDYV--GN VTNA----NA T----NTT-- ------SGIG GTVEGGEIKN 
+H19308_26_F8       1   NCTN-L--QN ATNTNS--NS S--------- ---------W DKMEEGEIKN 
+H19861_19_A6       1   NCTN-L---N ATN--T--NS S--------- --------IG ETMGGGEIKN 
+H19829_11_B4       1   NCTNEL--KN TTTTN---NS S--------- ---------W ----GGEMKN 
+H18969_12_7D       1   NCTE-L--EN T----I--NI T----NSR-- ---------- ----RGEIKN 
+H19829_11_E8       1   NCTNEL--KN TTTTN---NS S--------- ---------W ----GGEMKN 
+H19308_26_E4       1   NCTN-L--QN VTNINT--NS -----NSS-- ---------W DKMEEGEIKN 
+H19489_8_2A3       1   DCTD-A---N AT------NT T--------- ------SGIG GTVEGGEIKN 
+H19308_26_D8       1   NCTN-L--QN VTN--S--NS S--------- ---------W DKMEEGEIKN 
+H19885_31_E1       1   NCTD-L--KN ATN--T--NS TI-S-NST-- ---N-----W GQMEAGEIKN 
+H18887_21_G2       1   DCTD-L--KN TT------NT TS-SqNAT-- ---NtnSS-S EGI-MGEMKN 
+H18969_12_9D       1   NCTE-L--EN T----I--NI T----NSS-- ---------- ----RGEIKN 
+H19885_31_A5       1   NCTD-L--KN ATN--T--NS TI-S-NST-- ---N-----W GQMEAGEIKN 
+H18969_12_8G       1   NCTE-L--EN TT---I--NI T----NSS-- ---------- ----RGEIKN 
+H19885_31_G1       1   NCTD-L--KN ATN--T--NS TI-S-NST-- ---N-----W GQMEAGEIKN 
+H19463_8_A11       1   ECYD-L---N RTN--T--NT T--------- ------SS-S EGM-RGEIKN 
+H11668_12_F1       1   NCSD-L--GN NTN--SGNNK T----NSS-- ---S-----W EKMERGEIKN 
+H19792_9_F6_       1   NCTN-VntNN SSS--L--N- -----NTTnt nnsS-----W GKMEEGEIKN 
+H19463_8_E10       1   ECYD-L---N RTN--T--NT T--------- ------SS-S EGM-RGEIKN 
+H19885_31_H1       1   NCTD-L--KN ATN--T--NS TI-S-NST-- ---N-----W GQMEAGEIKN 
+H18814_10_1G       1   NCTD-F--GN TT------NT T-----SS-- ---S-----G ETMEKGEIKN 
+H18814_10_1B       1   NCTD-F--GN TT------NT T-----SS-- ---S-----G EMMEKGEIKN 
+H19885_31_E2       1   NCTD-L--KN ATN--T--NS TI-S-NST-- ---N-----W GQMEAGEIKN 
+H19329_32_H9       1   NCTN-V---N ITS--S-NNI TSsN-NNS-- ---N-----L EQM-TREIKN 
+H11668_12_C3       1   NCTN-L--GN DTN--SGNNN T----NSS-- ---S-----W EKMERGEIKN 
+H19961_14_B1       1   NCSD-M--GN ETA--T-NNT S------S-- ---G-----G ETVEKGEIKN 
+H19507_18_C1       1   NCTN-L--KN ATN--T--NE TT-H-TNT-- ---N-----V -MIKEGEIKN 
+H19885_31_D9       1   NCTD-L--KN ATN--T--NS TI-S-NST-- ---N-----W GQMEAGEIKN 
+                                                                 
+                       4555040044 4430020022 2101022200 0002000003 4455689999 
+ 
+HXB2_1_856        28   CS 
+H19489_8_G5_      33   CS 
+H19308_26_F8      28   CS 
+H19861_19_A6      26   CS 
+H19829_11_B4      24   CS 
+H18969_12_7D      22   CS 
+H19829_11_E8      24   CS 
+H19308_26_E4      30   CS 
+H19489_8_2A3      26   CS 
+H19308_26_D8      26   CS 
+H19885_31_E1      32   CS 
+H18887_21_G2      34   CS 
+H18969_12_9D      22   CS 
+H19885_31_A5      32   CS 
+H18969_12_8G      23   CS 
+H19885_31_G1      32   CS 
+H19463_8_A11      26   CS 
+H11668_12_F1      32   CS 
+H19792_9_F6_      35   CS 
+H19463_8_E10      26   CS 
+H19885_31_H1      32   CS 
+H18814_10_1G      27   CS 
+H18814_10_1B      27   CS 
+H19885_31_E2      32   CS 
+H19329_32_H9      32   CS 
+H11668_12_C3      32   CS 
+H19961_14_B1      29   CS 
+H19507_18_C1      31   CS 
+H19885_31_D9      32   CS 
+             
+                       99 
+ 
+
+ 
+ 
+   Sequence tree:
+   ==============
+
+Tree constructed using UPGMAbased on DIALIGN fragment weight scores
+ 
+(((((((HXB2_1_856  :0.030793H19489_8_G5_:0.030793):0.010613H19489_8_2A3:0.041406):0.007966(((((H19308_26_F8:0.021503H19308_26_D8:0.021503):0.001919H19308_26_E4:0.023422):0.010790((((((H19885_31_E1:0.016485H19885_31_A5:0.016485):0.000000H19885_31_G1:0.016485):0.000000H19885_31_H1:0.016485):0.000000H19885_31_E2:0.016485):0.000000H19885_31_D9:0.016485):0.013808H19507_18_C1:0.030293):0.003920):0.008662(((H11668_12_F1:0.018629H11668_12_C3:0.018629):0.014406H19961_14_B1:0.033035):0.004120(H18814_10_1G:0.016096H18814_10_1B:0.016096):0.021059):0.005720):0.001645H19792_9_F6_:0.044520):0.004852):0.004722(((H18969_12_7D:0.024986H18969_12_9D:0.024986):0.002640H18969_12_8G:0.027626):0.018488H18887_21_G2:0.046114):0.007980):0.002095(H19861_19_A6:0.038206(H19829_11_B4:0.020448H19829_11_E8:0.020448):0.017758):0.017982):0.006330(H19463_8_A11:0.020482H19463_8_E10:0.020482):0.042036):0.008795H19329_32_H9:0.071313);
+ 
+ 
